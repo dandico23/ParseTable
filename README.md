@@ -2,6 +2,11 @@
 
 Classe PHP construida utilizando a biblioteca Guzzle e hQuery. Essa classe realiza o scraping de uma tabela html e retorna os dados em formato de array. Essa classe considera a primeira linha da tabela como chave dos valores.
 
+- Parseia tabelas com a estrutura:
+```
+<tbody><tr><td></td></tr></tbody>
+```
+
 ## Instalação
 
 - Clonar o repositório do projeto

@@ -127,8 +127,3 @@ class ParseTable
         }
     }
 }
-
-$example = new ParseTable();
-$example->getContent('http://www.guiatrabalhista.com.br/guia/salario_minimo_1940a1999.htm');
-$data = $example->getDataTable();
-var_dump($data);
