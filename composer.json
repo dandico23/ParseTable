@@ -1,0 +1,6 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "duzun/hquery": "^3.0"
+    }
+}
